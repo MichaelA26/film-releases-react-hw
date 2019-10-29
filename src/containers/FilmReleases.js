@@ -40,7 +40,7 @@ class FilmReleases extends Component {
     return (
       <div className="film-releases">
       <h2>Films</h2>
-      <FilmList />
+      <FilmList filmItems={this.state.data}/>
       </div>
     );
   }
